@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%" role="img" aria-labelledby="tcTitle tcDesc">
+  <title id="tcTitle">工具链</title>
+  <desc id="tcDesc">七个 Python 数据分析工具:Python、Pandas、NumPy、scikit-learn、SciPy、Matplotlib、Seaborn,各自承担运行时、数据处理、数值计算、机器学习、统计推断、静态绘图与统计可视化角色。</desc>
+  <defs>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect x="0" y="0" width="1200" height="280" rx="26" fill="#F5F3EC"/>
+
+  <!-- 章节标题 -->
+  <g transform="translate(48, 36)">
+    <text class="sans" x="0" y="26" font-size="26" font-weight="700" fill="#1A1A1A">工具链</text>
+    <line x1="0" y1="40" x2="44" y2="40" stroke="#B8651B" stroke-width="3" stroke-linecap="round"/>
+    <text class="mono" x="0" y="62" font-size="12" fill="#8B8680" letter-spacing="1.5">TOOLCHAIN</text>
+  </g>
+
+  <!-- 七个工具卡片:横排,每卡 144 宽 -->
+  <g transform="translate(48, 124)">
+    <!-- Python -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="144" height="130" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
+      <circle cx="72" cy="38" r="24" fill="#2F6E4F"/>
+      <text class="mono" x="72" y="38" font-size="16" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central" font-weight="600">Py</text>
+      <text class="sans" x="72" y="86" font-size="15" font-weight="600" fill="#1A1A1A" text-anchor="middle">Python</text>
+      <text class="mono" x="72" y="108" font-size="11" fill="#8B8680" text-anchor="middle">运行时</text>
+    </g>
+    <!-- Pandas -->
+    <g transform="translate(160, 0)">
+      <rect x="0" y="0" width="144" height="130" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
+      <circle cx="72" cy="38" r="24" fill="#2F6E4F"/>
+      <text class="mono" x="72" y="38" font-size="16" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central" font-weight="600">pd</text>
+      <text class="sans" x="72" y="86" font-size="15" font-weight="600" fill="#1A1A1A" text-anchor="middle">Pandas</text>
+      <text class="mono" x="72" y="108" font-size="11" fill="#8B8680" text-anchor="middle">数据处理</text>
+    </g>
+    <!-- NumPy -->
+    <g transform="translate(320, 0)">
+      <rect x="0" y="0" width="144" height="130" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
+      <circle cx="72" cy="38" r="24" fill="#2F6E4F"/>
+      <text class="mono" x="72" y="38" font-size="16" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central" font-weight="600">np</text>
+      <text class="sans" x="72" y="86" font-size="15" font-weight="600" fill="#1A1A1A" text-anchor="middle">NumPy</text>
+      <text class="mono" x="72" y="108" font-size="11" fill="#8B8680" text-anchor="middle">数值计算</text>
+    </g>
+    <!-- scikit-learn -->
+    <g transform="translate(480, 0)">
+      <rect x="0" y="0" width="144" height="130" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
+      <circle cx="72" cy="38" r="24" fill="#2F6E4F"/>
+      <text class="mono" x="72" y="38" font-size="16" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central" font-weight="600">sk</text>
+      <text class="sans" x="72" y="86" font-size="14" font-weight="600" fill="#1A1A1A" text-anchor="middle">scikit-learn</text>
+      <text class="mono" x="72" y="108" font-size="11" fill="#8B8680" text-anchor="middle">机器学习</text>
+    </g>
+    <!-- SciPy -->
+    <g transform="translate(640, 0)">
+      <rect x="0" y="0" width="144" height="130" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
+      <circle cx="72" cy="38" r="24" fill="#2F6E4F"/>
+      <text class="mono" x="72" y="38" font-size="16" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central" font-weight="600">sp</text>
+      <text class="sans" x="72" y="86" font-size="15" font-weight="600" fill="#1A1A1A" text-anchor="middle">SciPy</text>
+      <text class="mono" x="72" y="108" font-size="11" fill="#8B8680" text-anchor="middle">统计推断</text>
+    </g>
+    <!-- Matplotlib -->
+    <g transform="translate(800, 0)">
+      <rect x="0" y="0" width="144" height="130" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
+      <circle cx="72" cy="38" r="24" fill="#B8651B"/>
+      <text class="mono" x="72" y="38" font-size="13" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central" font-weight="600">plt</text>
+      <text class="sans" x="72" y="86" font-size="14" font-weight="600" fill="#1A1A1A" text-anchor="middle">Matplotlib</text>
+      <text class="mono" x="72" y="108" font-size="11" fill="#8B8680" text-anchor="middle">静态绘图</text>
+    </g>
+    <!-- Seaborn -->
+    <g transform="translate(960, 0)">
+      <rect x="0" y="0" width="144" height="130" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
+      <circle cx="72" cy="38" r="24" fill="#B8651B"/>
+      <text class="mono" x="72" y="38" font-size="13" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central" font-weight="600">sns</text>
+      <text class="sans" x="72" y="86" font-size="15" font-weight="600" fill="#1A1A1A" text-anchor="middle">Seaborn</text>
+      <text class="mono" x="72" y="108" font-size="11" fill="#8B8680" text-anchor="middle">统计可视化</text>
+    </g>
+  </g>
+</svg>

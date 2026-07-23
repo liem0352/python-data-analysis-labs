@@ -1,63 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" role="img" aria-labelledby="heroTitle heroDesc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" role="img" aria-labelledby="heroTitle heroDesc">
   <title id="heroTitle">Python 数据分析实训合集</title>
-  <desc id="heroDesc">四个 Python 数据分析实训模块的四联格示意图:学生成绩分析、特征工程、KNN 分类与线性回归、身高体重相关性。</desc>
+  <desc id="heroDesc">四个 Python 数据分析实训模块的四联格示意:学生成绩分析、特征工程、KNN 分类与线性回归、身高体重相关性。</desc>
   <defs>
     <style>
       .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif; }
       .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
     </style>
     <!-- 左圆右直的编号块路径:左侧圆角与外框对齐,右侧直角衔接内容区 -->
-    <path id="numTile" d="M 10 0 L 80 0 L 80 80 L 10 80 A 10 10 0 0 1 0 70 L 0 10 A 10 10 0 0 1 10 0 Z" fill="#2F6E4F"/>
+    <path id="numTile" d="M 10 0 L 76 0 L 76 76 L 10 76 A 10 10 0 0 1 0 66 L 0 10 A 10 10 0 0 1 10 0 Z" fill="#2F6E4F"/>
   </defs>
 
   <!-- 背景:暖米白实验室笔记底色 -->
-  <rect x="0" y="0" width="1200" height="380" rx="26" fill="#F5F3EC"/>
+  <rect x="0" y="0" width="1200" height="360" rx="26" fill="#F5F3EC"/>
 
   <!-- 顶部标题区 -->
-  <g transform="translate(56, 32)">
+  <g transform="translate(56, 38)">
     <text class="mono" x="0" y="14" font-size="14" fill="#8B8680" letter-spacing="2">DATA ANALYSIS · LAB COLLECTION</text>
-    <text class="sans" x="0" y="66" font-size="44" font-weight="700" fill="#1A1A1A">Python 数据分析实训合集</text>
-    <text class="sans" x="0" y="100" font-size="18" fill="#8B8680">4 个实训 · Pandas · scikit-learn · SciPy · Seaborn</text>
+    <text class="sans" x="0" y="64" font-size="44" font-weight="700" fill="#1A1A1A">Python 数据分析实训合集</text>
+    <text class="sans" x="0" y="96" font-size="18" fill="#8B8680">4 个实训 - Pandas - scikit-learn - SciPy - Seaborn</text>
     <!-- 赭石数据流签名线:代表数据流贯穿四个模块 -->
-    <line x1="0" y1="116" x2="84" y2="116" stroke="#B8651B" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="112" x2="84" y2="112" stroke="#B8651B" stroke-width="3" stroke-linecap="round"/>
   </g>
 
   <!-- 实验室模块四联格:2×2 网格,每格代表一个 lab -->
-  <g transform="translate(56, 160)">
+  <g transform="translate(56, 158)">
     <!-- 格1 学生成绩分析 -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="528" height="80" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
+      <rect x="0" y="0" width="528" height="76" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
       <use href="#numTile"/>
-      <text class="mono" x="40" y="40" font-size="32" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">01</text>
-      <text class="sans" x="100" y="36" font-size="20" font-weight="600" fill="#1A1A1A">学生成绩分析</text>
-      <text class="mono" x="100" y="60" font-size="14" fill="#8B8680">Pandas · CSV · 数据筛选</text>
+      <text class="mono" x="38" y="38" font-size="30" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">01</text>
+      <text class="sans" x="96" y="34" font-size="19" font-weight="600" fill="#1A1A1A">学生成绩分析</text>
+      <text class="mono" x="96" y="58" font-size="14" fill="#8B8680">Pandas - CSV - 数据筛选</text>
     </g>
     <!-- 格2 特征工程 -->
     <g transform="translate(560, 0)">
-      <rect x="0" y="0" width="528" height="80" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
+      <rect x="0" y="0" width="528" height="76" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
       <use href="#numTile"/>
-      <text class="mono" x="40" y="40" font-size="32" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">02</text>
-      <text class="sans" x="100" y="36" font-size="20" font-weight="600" fill="#1A1A1A">特征工程</text>
-      <text class="mono" x="100" y="60" font-size="14" fill="#8B8680">sklearn · 编码 / 缩放 / 选择 / 离散化</text>
+      <text class="mono" x="38" y="38" font-size="30" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">02</text>
+      <text class="sans" x="96" y="34" font-size="19" font-weight="600" fill="#1A1A1A">特征工程</text>
+      <text class="mono" x="96" y="58" font-size="14" fill="#8B8680">sklearn - 编码 - 缩放 - 选择 - 离散化</text>
     </g>
     <!-- 格3 KNN 分类与线性回归 -->
-    <g transform="translate(0, 112)">
-      <rect x="0" y="0" width="528" height="80" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
+    <g transform="translate(0, 104)">
+      <rect x="0" y="0" width="528" height="76" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
       <use href="#numTile"/>
-      <text class="mono" x="40" y="40" font-size="32" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">03</text>
-      <text class="sans" x="100" y="36" font-size="20" font-weight="600" fill="#1A1A1A">KNN 分类与线性回归</text>
-      <text class="mono" x="100" y="60" font-size="14" fill="#8B8680">iris 100% · wine 回归</text>
+      <text class="mono" x="38" y="38" font-size="30" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">03</text>
+      <text class="sans" x="96" y="34" font-size="19" font-weight="600" fill="#1A1A1A">KNN 分类与线性回归</text>
+      <text class="mono" x="96" y="58" font-size="14" fill="#8B8680">iris 100% - wine 回归</text>
     </g>
     <!-- 格4 身高体重相关性 -->
-    <g transform="translate(560, 112)">
-      <rect x="0" y="0" width="528" height="80" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
+    <g transform="translate(560, 104)">
+      <rect x="0" y="0" width="528" height="76" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
       <use href="#numTile"/>
-      <text class="mono" x="40" y="40" font-size="32" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">04</text>
-      <text class="sans" x="100" y="36" font-size="20" font-weight="600" fill="#1A1A1A">身高体重相关性</text>
-      <text class="mono" x="100" y="60" font-size="14" fill="#8B8680">SciPy · Shapiro-Wilk · Pearson</text>
+      <text class="mono" x="38" y="38" font-size="30" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">04</text>
+      <text class="sans" x="96" y="34" font-size="19" font-weight="600" fill="#1A1A1A">身高体重相关性</text>
+      <text class="mono" x="96" y="58" font-size="14" fill="#8B8680">SciPy - Shapiro-Wilk - Pearson</text>
     </g>
   </g>
 
   <!-- 底部署名 -->
-  <text class="mono" x="600" y="372" font-size="12" fill="#8B8680" text-anchor="middle">Python 3.13 · 作者 liem · 广东工商职业技术大学</text>
+  <text class="mono" x="600" y="346" font-size="12" fill="#8B8680" text-anchor="middle">Python 3.13 · 作者 liem · 广东工商职业技术大学</text>
 </svg>

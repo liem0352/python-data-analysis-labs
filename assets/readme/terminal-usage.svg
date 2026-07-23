@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="100%" role="img" aria-labelledby="termTitle termDesc">
+  <title id="termTitle">快速运行</title>
+  <desc id="termDesc">安装依赖与运行实训的终端命令卡片:pip 安装六大库,进入 lab 目录运行主脚本。</desc>
+  <defs>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect x="0" y="0" width="1200" height="200" rx="26" fill="#F5F3EC"/>
+
+  <!-- 章节标题 -->
+  <g transform="translate(48, 28)">
+    <text class="sans" x="0" y="22" font-size="22" font-weight="700" fill="#1A1A1A">快速运行</text>
+    <line x1="0" y1="34" x2="40" y2="34" stroke="#B8651B" stroke-width="3" stroke-linecap="round"/>
+    <text class="mono" x="0" y="54" font-size="12" fill="#8B8680" letter-spacing="1.5">QUICK START</text>
+  </g>
+
+  <!-- 终端卡片:深色背景模拟 shell -->
+  <g transform="translate(48, 92)">
+    <rect x="0" y="0" width="1104" height="96" rx="10" fill="#1A1A1A"/>
+    <!-- 终端头:bash 标签 + 分隔线 -->
+    <text class="mono" x="20" y="24" font-size="12" fill="#8B8680" letter-spacing="1">bash</text>
+    <line x1="0" y1="34" x2="1104" y2="34" stroke="#3A3A3A" stroke-width="1"/>
+    <!-- 命令 1 安装依赖 -->
+    <text class="mono" x="20" y="56" font-size="13" fill="#B8651B">$</text>
+    <text class="mono" x="36" y="56" font-size="13" fill="#E8E8E8">pip install pandas numpy scikit-learn scipy matplotlib seaborn</text>
+    <!-- 命令 2 进入目录 -->
+    <text class="mono" x="20" y="76" font-size="13" fill="#B8651B">$</text>
+    <text class="mono" x="36" y="76" font-size="13" fill="#E8E8E8">cd lab01_student_score_analysis</text>
+    <!-- 命令 3 运行脚本 -->
+    <text class="mono" x="20" y="92" font-size="13" fill="#B8651B">$</text>
+    <text class="mono" x="36" y="92" font-size="13" fill="#E8E8E8">python main.py</text>
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" role="img" aria-labelledby="pipeTitle pipeDesc">
+  <title id="pipeTitle">分析流水线</title>
+  <desc id="pipeDesc">六阶段数据分析流水线:数据加载、清洗、探索、可视化、建模、报告,以赭石数据流线串联六个松绿节点。</desc>
+  <defs>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    </style>
+    <!-- 阶段箭头:赭石小三角 -->
+    <marker id="arrowOchre" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#B8651B"/>
+    </marker>
+  </defs>
+
+  <!-- 背景 -->
+  <rect x="0" y="0" width="1200" height="320" rx="26" fill="#F5F3EC"/>
+
+  <!-- 章节标题 -->
+  <g transform="translate(48, 36)">
+    <text class="sans" x="0" y="26" font-size="26" font-weight="700" fill="#1A1A1A">分析流水线</text>
+    <line x1="0" y1="40" x2="44" y2="40" stroke="#B8651B" stroke-width="3" stroke-linecap="round"/>
+    <text class="mono" x="0" y="62" font-size="12" fill="#8B8680" letter-spacing="1.5">ANALYSIS PIPELINE</text>
+  </g>
+
+  <!-- 流水线主体:赭石数据流线 + 六个松绿节点 -->
+  <g transform="translate(48, 140)">
+    <!-- 数据流线:贯穿六个节点中心 -->
+    <line x1="80" y1="26" x2="1020" y2="26" stroke="#B8651B" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrowOchre)"/>
+
+    <!-- 节点 1 数据加载 -->
+    <g transform="translate(0, 0)">
+      <circle cx="80" cy="26" r="26" fill="#2F6E4F"/>
+      <text class="mono" x="80" y="26" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">01</text>
+      <text class="sans" x="80" y="80" font-size="16" font-weight="600" fill="#1A1A1A" text-anchor="middle">数据加载</text>
+      <text class="mono" x="80" y="104" font-size="12" fill="#8B8680" text-anchor="middle">CSV · 数据生成</text>
+    </g>
+    <!-- 节点 2 清洗 -->
+    <g transform="translate(188, 0)">
+      <circle cx="80" cy="26" r="26" fill="#2F6E4F"/>
+      <text class="mono" x="80" y="26" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">02</text>
+      <text class="sans" x="80" y="80" font-size="16" font-weight="600" fill="#1A1A1A" text-anchor="middle">清洗</text>
+      <text class="mono" x="80" y="104" font-size="12" fill="#8B8680" text-anchor="middle">缺失值 · 异常值</text>
+    </g>
+    <!-- 节点 3 探索 -->
+    <g transform="translate(376, 0)">
+      <circle cx="80" cy="26" r="26" fill="#2F6E4F"/>
+      <text class="mono" x="80" y="26" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">03</text>
+      <text class="sans" x="80" y="80" font-size="16" font-weight="600" fill="#1A1A1A" text-anchor="middle">探索</text>
+      <text class="mono" x="80" y="104" font-size="12" fill="#8B8680" text-anchor="middle">描述统计</text>
+    </g>
+    <!-- 节点 4 可视化 -->
+    <g transform="translate(564, 0)">
+      <circle cx="80" cy="26" r="26" fill="#B8651B"/>
+      <text class="mono" x="80" y="26" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">04</text>
+      <text class="sans" x="80" y="80" font-size="16" font-weight="600" fill="#1A1A1A" text-anchor="middle">可视化</text>
+      <text class="mono" x="80" y="104" font-size="12" fill="#8B8680" text-anchor="middle">图表绘制</text>
+    </g>
+    <!-- 节点 5 建模 -->
+    <g transform="translate(752, 0)">
+      <circle cx="80" cy="26" r="26" fill="#2F6E4F"/>
+      <text class="mono" x="80" y="26" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">05</text>
+      <text class="sans" x="80" y="80" font-size="16" font-weight="600" fill="#1A1A1A" text-anchor="middle">建模</text>
+      <text class="mono" x="80" y="104" font-size="12" fill="#8B8680" text-anchor="middle">KNN · 线性回归</text>
+    </g>
+    <!-- 节点 6 报告 -->
+    <g transform="translate(940, 0)">
+      <circle cx="80" cy="26" r="26" fill="#2F6E4F"/>
+      <text class="mono" x="80" y="26" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">06</text>
+      <text class="sans" x="80" y="80" font-size="16" font-weight="600" fill="#1A1A1A" text-anchor="middle">报告</text>
+      <text class="mono" x="80" y="104" font-size="12" fill="#8B8680" text-anchor="middle">结论 · 复现</text>
+    </g>
+  </g>
+</svg>
