@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="100%" role="img" aria-labelledby="labsTitle labsDesc">
+  <title id="labsTitle">实训目录</title>
+  <desc id="labsDesc">四个实训模块的横向目录示意:学生成绩分析、特征工程、KNN 分类与线性回归、身高体重相关性。</desc>
+  <defs>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect x="0" y="0" width="1200" height="140" rx="26" fill="#F5F3EC"/>
+
+  <!-- 左侧章节标题 -->
+  <g transform="translate(48, 0)">
+    <text class="sans" x="0" y="66" font-size="26" font-weight="700" fill="#1A1A1A">实训目录</text>
+    <line x1="0" y1="80" x2="44" y2="80" stroke="#B8651B" stroke-width="3" stroke-linecap="round"/>
+    <text class="mono" x="0" y="100" font-size="12" fill="#8B8680" letter-spacing="1.5">LABS DIRECTORY</text>
+  </g>
+
+  <!-- 竖向分隔线 -->
+  <line x1="266" y1="30" x2="266" y2="110" stroke="#8B8680" stroke-width="1" opacity="0.25"/>
+
+  <!-- 四个 lab 横排标签 -->
+  <g transform="translate(290, 42)">
+    <!-- 标签1 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="210" height="56" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
+      <text class="mono" x="20" y="34" font-size="16" font-weight="600" fill="#2F6E4F">01</text>
+      <text class="sans" x="54" y="34" font-size="15" fill="#1A1A1A">学生成绩分析</text>
+    </g>
+    <!-- 标签2 -->
+    <g transform="translate(226, 0)">
+      <rect x="0" y="0" width="210" height="56" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
+      <text class="mono" x="20" y="34" font-size="16" font-weight="600" fill="#2F6E4F">02</text>
+      <text class="sans" x="54" y="34" font-size="15" fill="#1A1A1A">特征工程</text>
+    </g>
+    <!-- 标签3 -->
+    <g transform="translate(452, 0)">
+      <rect x="0" y="0" width="210" height="56" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
+      <text class="mono" x="20" y="34" font-size="16" font-weight="600" fill="#2F6E4F">03</text>
+      <text class="sans" x="54" y="34" font-size="15" fill="#1A1A1A">KNN · 回归</text>
+    </g>
+    <!-- 标签4 -->
+    <g transform="translate(678, 0)">
+      <rect x="0" y="0" width="210" height="56" rx="10" fill="#FFFFFF" stroke="#2F6E4F" stroke-width="1"/>
+      <text class="mono" x="20" y="34" font-size="16" font-weight="600" fill="#2F6E4F">04</text>
+      <text class="sans" x="54" y="34" font-size="15" fill="#1A1A1A">身高体重</text>
+    </g>
+  </g>
+</svg>
